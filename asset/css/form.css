@@ -57,6 +57,7 @@ h1 {
 h2 {
     margin-top: 26px;
     text-align: center;
+    border-radius: 10px;
     color: #333;
     background-color: #ffc0cb94;
     padding: 10px;
@@ -68,6 +69,7 @@ h2 {
 form {
     width: 340px;
     padding: 20px;
+    border-radius: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px #ccc;
     margin: 50px auto;
@@ -87,7 +89,7 @@ input[type="date"] {
     margin-left: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 input[type="submit"] {
@@ -96,7 +98,7 @@ input[type="submit"] {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 30px;
 }
 
 input[type="submit"]:hover {
