@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/paysage-montagne-montgolfiere-aube-ai-generative.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header,
+footer {
+    background-color: #008000;
+    color: white;
+    padding: 20px 0;
+}
+
+.img {
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+    background-color: #008000;
+}
+
+::-webkit-scrollbar-button {
+    width: 50px;
+    height: auto;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #008000;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFC0CB;
+
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #008000;
+}
+
+
+div {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-left: 200px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 26px;
+    text-align: center;
+    color: #333;
+    background-color: #ffc0cb94;
+    padding: 10px;
+    width: 355px;
+    margin-left: 40%;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+footer {
+    margin-top: 102px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
