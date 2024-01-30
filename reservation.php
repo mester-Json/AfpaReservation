@@ -16,14 +16,14 @@
                 src="./asset/img/946782-1390996164-946781-1390996147-visuel-afpa-site.png"></a>
     </header>
 
-    <h2>Formulaire de réservation pour
+    <h2 class="border-neon">Formulaire de réservation pour
         <?php
         session_start();
         $result2 = $_SESSION["result2"];
         echo $result2;
         ?>
     </h2>
-    <form action="./asset/bdd/reservation.php" method="post">
+    <form class="border-neon" action="./asset/bdd/reservation.php" method="post">
         <label for="nom">Nom :</label>
         <input type="text" id="nom" name="nom">
         <label for="">
